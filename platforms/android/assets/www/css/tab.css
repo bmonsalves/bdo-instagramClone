@@ -1,0 +1,35 @@
+ul#tabs { 
+	font-family: sans-serif;
+	list-style-type: none; 
+	position: fixed;
+	background-color: #edeeef;
+	height: 45px;
+	width: 100%;
+	border-bottom: 1px solid #bdbdbd;
+	 }
+ul#tabs li { 
+	width: 40%;
+	text-align: center;
+	padding: 1em 0;
+	display: inline-block;
+
+}
+ul#tabs li img { 
+	margin-bottom: -2px;
+}
+ul#tabs li a { color: #42454a; 
+	
+	text-decoration: none; 
+}
+ul#tabs li:hover { background-color: #f1f0ee; }
+ul#tabs li a.selected { 
+	color: #000; 
+	font-weight: bold; 
+}
+section.tabContent { 
+	margin: 85px 0.5em 0.5em 0.5em; 
+	margin-top: ;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+section.tabContent.hide { display: none; }

@@ -1,0 +1,174 @@
+.art{
+	margin: 10px 0;
+}
+.entrie-title{
+	width: 100%;
+	height: 40px;
+
+}
+.top-bar-entrie{
+	display: block;
+	list-style-type: none; 
+	width: 100%;
+}
+
+.top-bar-entrie li{
+	display: inline-block;
+	width: 45%;
+	margin-left: -25px;
+	height: 30px;
+}
+
+.top-bar-entrie li a strong{
+vertical-align: top;
+font-size: .85em;
+}
+
+.top-bar-entrie li strong{
+	margin-right: -53px;
+vertical-align: top;
+font-size: .85em;
+}
+.rightPosition{
+	float: right;
+	color: #999;
+}
+
+.imgUser{
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,.15);
+	width:30px;
+	height: 30px;
+}
+
+.imgContainer{
+	width: 100%;
+	height: 300px;
+}
+
+.imgContainer img{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+}
+
+.compContainer{
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	margin: 1px 0 -1px;
+	background: #e6e6e6 url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/47dfbd4/images/bg/white-gradient-100px.png) repeat-x 50% 50%;
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);
+}
+
+.timelineLikeButtonAnimation {
+background: url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/47dfbd4/images/p/glyph-heart-pop.png) no-repeat 50% 50%;
+display: block;
+position: relative;
+left: -1px;
+top: 1px;
+width: 100%;
+height: 100%;
+opacity: 0;
+pointer-events: none;
+-webkit-background-size: 40px 40px;
+background-size: 40px 40px;
+}
+
+.timelineLikeButton {
+	position: relative;
+	float: left;
+	display: inline;
+	height: 100%;
+	width: 48px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/47dfbd4/images/feed/feed-assets.png) no-repeat 8px 6px;
+	border-right: 1px solid #ddd;
+	-webkit-box-shadow: 1px 0 0 rgba(255,255,255,.9);
+	-moz-box-shadow: 1px 0 0 rgba(255,255,255,.9);
+	box-shadow: 1px 0 0 rgba(255,255,255,.9);
+}
+
+.mediaMoreButtonContainer {
+float: right;
+margin-right: 1px;
+position: relative;
+display: inline;
+height: 100%;
+width: 48px;
+}
+
+.mediaMoreButton {
+	display: block;
+	cursor: pointer;
+	height: 100%;
+	width: 48px;
+	border-left: 1px solid #ddd;
+	-webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,.9);
+	-moz-box-shadow: inset 1px 0 0 rgba(255,255,255,.9);
+	box-shadow: inset 1px 0 0 rgba(255,255,255,.9);
+	background: url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/47dfbd4/images/feed/feed-assets.png) no-repeat 7px -94px;
+
+}
+
+.timelineCommentComposer{
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+	border-radius: 0 0 5px 5px;
+}
+.timelineCommentTextField{
+	width: 93%;
+	margin: 12px;
+}
+
+.wrap {
+overflow: hidden;
+}
+.box {
+	float: left;
+	position: relative;
+	width: 20%;
+}
+.boxInner {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	overflow: hidden;
+}
+.boxInner img {
+	width: 100%;
+}
+.boxInner .titleBox {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: -50px;
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	padding: 10px;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+	margin-bottom: 0;
+}
+@media only screen and (max-width : 480px) {
+	.box {
+		width: 50%;
+		padding-bottom: 30%;
+	}
+}
+
+

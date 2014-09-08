@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="css/tab.css" />
+        <link rel="stylesheet" href="css/entrie.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>InstagramClone</title>
+    </head>
+    <body onload="init();">
+        <header class="top-bar top-bar-new panel-fixed">
+            <div class="top-bar-wrapper">
+                <h1 class="logo"><a href="#">Instagram</a></h1>
+
+                <div class="top-bar-left">
+                    <ul class="top-bar-actions">
+                        <li>
+                            <a class="top-bar-home" href="#" label="Inicio"><i></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-bar-right account-state" id="top_bar_right">
+                    <ul class="top-bar-actions">
+                        <li id="link_profile" class="link-signin">
+                            <a href="#" class="loginLink">
+                                <i></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="tab-section">
+          <ul id="tabs">
+            <li id="listas">
+              <img src="img/list.png" width="15px" height="15px" alt="">
+              <a href="#list">Lista</a>
+            </li>
+            <li id="miniaturas">
+              <img src="img/grid.png" width="15px" height="15px" alt="">
+              <a href="#grid">Cuadricula</a>
+            </li>
+          </ul>
+        </section>
+        <section class="tabContent" id="list">
+              <div id="carga"><div id="div1"></div></div>
+        </section>
+        <section class="tabContent" id="grid">
+            <div id="cargaCuadricula"><div id="div2"></div></div>
+        </section>
+        <footer class="panel-camera">
+            <button id="takePhoto" class="takeBtn"></button>
+        </footer>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script  src="js/tab.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
