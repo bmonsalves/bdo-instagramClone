@@ -55,8 +55,8 @@ body {
 .tab-section{
     top: 40px;
     background-color: #edeeef;
-    position: fixed;
-  z-index: 10;
+    position: fixed !important;
+    z-index: 100;
 }
 
 .notice{

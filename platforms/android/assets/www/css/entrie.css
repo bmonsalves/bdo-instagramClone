@@ -61,6 +61,18 @@ font-size: .85em;
 	box-shadow: inset 0 0 0 1px rgba(255,255,255,.15),0 0 3px rgba(0,0,0,.1);
 }
 
+.geoContainer{
+	display: inline;
+	position: absolute;
+	margin-right: 60px;
+	font-size: 11px;
+}
+.geoContainer p{
+	line-height: 40px;
+	margin-left: 5px;
+	white-space: nowrap;
+}
+
 .timelineLikeButtonAnimation {
 background: url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/47dfbd4/images/p/glyph-heart-pop.png) no-repeat 50% 50%;
 display: block;
@@ -86,7 +98,8 @@ background-size: 40px 40px;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	background: url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/47dfbd4/images/feed/feed-assets.png) no-repeat 8px 6px;
+	background: url(http://www.xsmarines.com/skin/images/icons/icon-76-48.png) no-repeat center;
+    background-size: 30px;
 	border-right: 1px solid #ddd;
 	-webkit-box-shadow: 1px 0 0 rgba(255,255,255,.9);
 	-moz-box-shadow: 1px 0 0 rgba(255,255,255,.9);

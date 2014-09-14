@@ -10,4 +10,8 @@
     <content src="index.html" />
     <access origin="*" />
     <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.GeoBroker" />
+    </feature>
 </widget>
