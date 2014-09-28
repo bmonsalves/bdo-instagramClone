@@ -11,6 +11,7 @@
     <access origin="*" />
     <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
     <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <plugin name="Storage" value="org.apache.cordova.Storage" />
     <feature name="Geolocation">
         <param name="android-package" value="org.apache.cordova.GeoBroker" />
     </feature>

@@ -71,6 +71,9 @@
         },
         "org.apache.cordova.geolocation": {
             "PACKAGE_NAME": "cl.fullstack.instagramClone"
+        },
+        "com.photokandy.localstorage": {
+            "PACKAGE_NAME": "cl.fullstack.instagramClone"
         }
     },
     "dependent_plugins": {

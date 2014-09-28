@@ -47,7 +47,7 @@
         </header>
 
         <section class="tabContent" id="list">
-              <div id="carga"><div id="div1"></div></div>
+              <div id="carga"><div id="divInit"></div></div>
         </section>
         <section class="tabContent" id="grid">
             <div id="cargaCuadricula"><div id="div2"></div></div>
@@ -58,9 +58,11 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script  src="js/tab.js"></script>
+        <script type="text/javascript" src="js/common/db.js"></script>
+        <script type="text/javascript" src="js/common/tab.js"></script>
         <script type="text/javascript">
             app.initialize();
+            dbinstagram.initialize();
         </script>
 
     </body>
